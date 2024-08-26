@@ -1,0 +1,29 @@
+{
+    "name": "Work : Whack-a-mole game",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "carnival": "github:microsoft/arcade-carnival",
+        "mole-images": "github:kiki-lee/mole-images#v0.0.2"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts",
+        "pxt.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.12.56",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
